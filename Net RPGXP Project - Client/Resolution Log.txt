@@ -1,0 +1,13 @@
+[RESOLUTION LOG]
+
+  Logged on 10/13/19 at 12:58:07 AM
+
+RESOLUTION:
+  800 x 600
+ASPECT RATIO:
+  4:3
+MINIMUM MAP SIZE:
+  25 x 18
+
+UNDERSIZED MAPS:
+    All maps are sized correctly.

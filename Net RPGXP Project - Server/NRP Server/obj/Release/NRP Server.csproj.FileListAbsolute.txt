@@ -1,0 +1,9 @@
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Release\NRP_Server.exe.config
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Release\NRP_Server.exe
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Release\NRP_Server.pdb
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Release\MySql.Data.dll
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Release\System.Net.Http.dll
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Release\MySql.Data.xml
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Release\System.Net.Http.xml
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Release\NRP_Server.exe
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Release\NRP_Server.pdb

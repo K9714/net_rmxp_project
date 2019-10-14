@@ -1,0 +1,55 @@
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\bin\Debug\DB Manager.exe.config
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\bin\Debug\DB Manager.exe
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\bin\Debug\DB Manager.pdb
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\obj\Debug\DB Manager.csprojResolveAssemblyReference.cache
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\obj\Debug\DB_Manager.Properties.Resources.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\obj\Debug\DB Manager.csproj.GenerateResource.Cache
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\obj\Debug\DB Manager.exe
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\obj\Debug\DB Manager.pdb
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\obj\Debug\DB_Manager.mainForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\obj\Debug\DB_Manager.addDataForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\obj\Debug\DB_Manager.addMessageForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\bin\Debug\MySql.Data.dll
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\bin\Debug\MySql.Data.xml
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\DB Manager\obj\Debug\DB_Manager.addConActionForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\bin\Debug\DB Manager.exe.config
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.exe
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.pdb
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\bin\Debug\DB Manager.exe
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\bin\Debug\DB Manager.pdb
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\bin\Debug\MySql.Data.dll
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\bin\Debug\MySql.Data.xml
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.csprojResolveAssemblyReference.cache
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addActionForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addConActionForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.mainForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addDataForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addMessageForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.Properties.Resources.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.csproj.GenerateResource.Cache
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.Dialog.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addDropItemForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addStoreForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addEnemyPositionForm.resources
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addFunctionForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\bin\Debug\DB Manager.exe.config
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\bin\Debug\DB Manager.exe
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\bin\Debug\DB Manager.pdb
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\bin\Debug\MySql.Data.xml
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.csprojAssemblyReference.cache
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addDropItemForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addEnemyPositionForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addFunctionForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addStoreForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.Dialog.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addActionForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addConActionForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.mainForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addDataForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.addMessageForm.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB_Manager.Properties.Resources.resources
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.csproj.GenerateResource.cache
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.csproj.CoreCompileInputs.cache
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.csproj.CopyComplete
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.exe
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - DB Manager\DB Manager\obj\Debug\DB Manager.pdb

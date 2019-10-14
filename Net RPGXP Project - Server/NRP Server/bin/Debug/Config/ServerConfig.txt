@@ -1,0 +1,24 @@
+﻿[SERVER]
+TITLE			=Net RMXP Prject Server - by. Allfea (allfea_@naver.com)
+
+[SOCKET]
+PORT			=50002
+MAX_NUM		=100
+
+[MYSQL]
+SERVER_IP		=127.0.0.1
+HOST_NAME		=localhost
+DBPORT			=3306
+USER_NAME		=root
+PASSWORD		=apmsetup
+DATABASE		=net_rmxp_project
+
+[THREAD]
+WAIT_TIME		=100
+
+[CONSOLE]
+MAIN_MESSAGE		=Net RMXP Prject Server (2018.06.12)
+SERVER_MESSAGE		=서버를 시작합니다.
+
+[VERSION]
+VERSION			=1.00

@@ -1,0 +1,22 @@
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.exe.config
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.exe
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.pdb
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\MySql.Data.dll
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\MySql.Data.xml
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.exe
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.pdb
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\System.Net.Http.dll
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\System.Net.Http.xml
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csprojResolveAssemblyReference.cache
+C:\Users\win10\Desktop\NRP Beta 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.exe.config
+C:\Users\win10\Desktop\NRP Beta 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.exe
+C:\Users\win10\Desktop\NRP Beta 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.pdb
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.exe.config
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.exe
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.pdb
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\MySql.Data.xml
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csprojAssemblyReference.cache
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csproj.CoreCompileInputs.cache
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csproj.CopyComplete
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.exe
+C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.pdb
