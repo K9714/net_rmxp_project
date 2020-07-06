@@ -15,7 +15,7 @@ namespace NRP_Server
         // Server
         //콘피그는 실행파일(exe)풀더의 Config풀더 ServerConfig.txt파일입니다.
         public static string TITLE;
-        public static string ADMIN;
+        //public static string ADMIN;
         // Socket
         public static int PORT;
         public static int MAX_NUM;
