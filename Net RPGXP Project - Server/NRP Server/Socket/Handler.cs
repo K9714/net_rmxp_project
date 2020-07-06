@@ -40,6 +40,9 @@ namespace NRP_Server
                 // MySQL 연결
                 Mysql.connect(Config.SERVER_IP, Config.DATABASE, Config.USER_NAME, Config.PASSWORD);
                 Msg.Connect("MySQL 서버에 연결되었습니다.");
+                //서버의 비정상적 종료로 인해, 영구적으로 온라인 상태로 표기되어있는 유저를 오프라인 상태로 변경
+                Mysql.Query("UPDATE user_information SET online=0");
+                Msg.Info("서버 DB초기화 ");
                 // 경험치 로드
                 Exp.loadData();
                 // 아이템 등등 로드
@@ -50,7 +53,6 @@ namespace NRP_Server
 
                 // 맵 세팅
                 Map.loadData();
-
                 Msg.Info("서버가 정상적으로 실행되었습니다.");
                 // 멀티쓰레드 시작
                 runUpdate.Start();

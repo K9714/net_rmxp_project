@@ -14,8 +14,11 @@ namespace NRP_Server
         {
             return Convert.ToInt32(data);
         }
-        # endregion
-
+        #endregion
+        public void UpDex(int n)
+        {
+            dex += n;
+        }
         // public Variable
         public UserData userData;
         public Field fieldData;
