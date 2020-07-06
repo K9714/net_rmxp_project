@@ -68,7 +68,7 @@ namespace NRP_Server
         private const int CUSTOM_PACKET         = 900;
 
         // Admin
-        public static string[] ADMIN = { "admin" };
+        public static string[] ADMIN = { Config.ADMIN };
         #endregion
         #region 컨버터
         private static int ToInt(object data)

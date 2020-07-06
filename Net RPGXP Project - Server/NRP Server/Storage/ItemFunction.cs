@@ -59,7 +59,7 @@ namespace NRP_Server
             u.fieldData.addEnemy(value, u.x, u.y - 1);
             return true;
         }
-        public static bool LaplaceClock(UserCharacter u, Item item, int value)
+        public static bool StatusUpdate(UserCharacter u, Item item, int value)
         {
             u.UpDex(value);
             u.userData.clientData.SendPacket(Packet.CharacterStatusUpdate(u));

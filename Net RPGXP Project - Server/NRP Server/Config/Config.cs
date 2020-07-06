@@ -1,5 +1,5 @@
 ﻿///////////////////
-/// N R P 1.6.2 ///
+/// N R P 1.6.3 ///
 /// 콘피그 모듈 ///
 ///////////////////
 using System;
@@ -40,7 +40,7 @@ namespace NRP_Server
         {
             try
             {
-                string filePath = "./Config/ServerConfig.txt";
+                string filePath = "./Config/ServerConfig.txt"; // 콘피그 파일경로입니다. 기본 권장합니다
                 string fileData = System.IO.File.ReadAllText(filePath);
 
                 string[] readData = fileData.Split('\n');
