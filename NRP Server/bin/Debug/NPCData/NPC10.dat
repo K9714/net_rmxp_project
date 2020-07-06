@@ -1,0 +1,11 @@
+﻿ACTION=1,,MESSAGE:1
+MESSAGE=1,2[2,3],안녕하세요.\n이 마을은 참 평화로운 것 같아요.\n그렇게 생각하지 않나요?
+ACTION=2,응 맞아,MESSAGE:2
+ACTION=3,아니 별로야,MESSAGE:3
+MESSAGE=2,4,역시 그렇죠?\n제가 사람보는 눈은 있다니까요!
+MESSAGE=3,4,그런가요..\n사람마다 의견은 다를 수 있으니까요.
+ACTION=4,,MESSAGE:4
+MESSAGE=4,5,이미지 테스트예요!!\n\OP[a.png,30,30]
+ACTION=5,,MESSAGE:5
+MESSAGE=5,6,이미지를 없앨거예요!\n\RP
+ACTION=6,,END

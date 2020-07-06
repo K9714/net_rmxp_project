@@ -1,0 +1,11 @@
+D:\Projects\MinervaServer\MinervaServer\bin\Debug\MinervaServer.exe.config
+D:\Projects\MinervaServer\MinervaServer\bin\Debug\MinervaServer.exe
+D:\Projects\MinervaServer\MinervaServer\bin\Debug\MinervaServer.pdb
+D:\Projects\MinervaServer\MinervaServer\obj\Debug\MinervaServer.csprojResolveAssemblyReference.cache
+D:\Projects\MinervaServer\MinervaServer\obj\Debug\MinervaServer.exe
+D:\Projects\MinervaServer\MinervaServer\obj\Debug\MinervaServer.pdb
+D:\Projects\MinervaServer\MinervaServer\bin\Debug\MySql.Data.dll
+D:\Projects\MinervaServer\MinervaServer\bin\Debug\MySql.Data.xml
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\MinervaServer\bin\Debug\MinervaServer.exe.config
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\MinervaServer\obj\Debug\MinervaServer.exe
+C:\Users\win10\Desktop\NRP 1.0\Net RPGXP Project - Server\MinervaServer\obj\Debug\MinervaServer.pdb

@@ -1,0 +1,7 @@
+ACTION=1,,MESSAGE:1
+MESSAGE=1,2[2,3],내가 여기 있는걸 용캐도 찾았군...\n후후.. 자네는 무얼 하러 왔는가?\n
+ACTION=2,두건?,MESSAGE:2
+ACTION=3,아무것도 아닙니다.,END
+MESSAGE=2,4,후후후.. 좋아.\n좋은 것들을 보여주지.
+ACTION=4,,STORE:1
+STORE=1,2,3
