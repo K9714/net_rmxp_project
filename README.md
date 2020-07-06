@@ -1,4 +1,6 @@
-﻿# Net RMXP Project
+# Net RMXP Project
+Ver 1.6.1
+ 
 Naver cafe :
  http://cafe.naver.com/alfscript
  
