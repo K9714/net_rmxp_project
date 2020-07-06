@@ -39,7 +39,7 @@ namespace NRP_Server
             delay_count = 0;
         }
 
-        public void loadData(DataRow rs, int _no, int _mapid, int _x, int _y)
+        public void loadData(DataRow rs, DataRow ps)
         {
             no = ToInt(rs["no"]);
             name = rs["name"].ToString();
@@ -56,10 +56,11 @@ namespace NRP_Server
             Int = ToInt(rs["int"]);
             luk = ToInt(rs["luk"]);
 
-            pos_no = _no;
-            mapid = _mapid;
-            x = _x;
-            y = _y;
+            pos_no = ToInt(ps["no"]);
+
+            mapid = ToInt(ps["map_id"]);
+            x = ToInt(ps["map_x"]);
+            y = ToInt(ps["map_y"]);
 
             start_x = x;
             start_y = y;

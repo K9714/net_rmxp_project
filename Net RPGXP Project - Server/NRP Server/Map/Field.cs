@@ -12,7 +12,7 @@ namespace NRP_Server
     {
         public Dictionary<int, UserCharacter> Users = new Dictionary<int, UserCharacter>();
         public Dictionary<int, DropItem> DropItems = new Dictionary<int, DropItem>();
-        public ArrayList Enemies;
+        public Dictionary<int, Enemy> Enemies;
         public int mapid { get; private set; }
         public int seed { get; private set; }
         
@@ -28,16 +28,19 @@ namespace NRP_Server
         {
             int count = 0;
             Enemy obj;
-            Enemies = new ArrayList();
+            Enemies = new Dictionary<int, Enemy>();
             DataTable pos = Mysql.Query($"SELECT * FROM enemy_position WHERE map_id = '{mapid}'");
             DataTable ds;
             foreach (DataRow ps in pos.Rows)
             {
                 ds = Mysql.Query($"SELECT * FROM enemy WHERE no = '{ps["enemy_no"]}'");
-                obj = new Enemy(this);
-                Enemies.Add(obj);
-                obj.loadData(ds.Rows[0], Enemies.IndexOf(obj), mapid, Convert.ToInt32(ps["map_x"]), Convert.ToInt32(ps["map_y"]));
-                count++;
+                foreach (DataRow rs in ds.Rows)
+                {
+                    obj = new Enemy(this);
+                    obj.loadData(rs, ps);
+                    Enemies.Add(obj.pos_no, obj);
+                    count++;
+                }
             }
             Msg.Info($"[맵] {mapid}번 {count} 개의 몬스터 로드 완료");
         }
@@ -59,7 +62,7 @@ namespace NRP_Server
             foreach (NPC npc in map.npcData.Values)
                 if (npc.x == new_x && npc.y == new_y) { return false; }
             // 넷이벤트 충돌판정
-            foreach (Enemy enemy in Enemies)
+            foreach (Enemy enemy in Enemies.Values)
                 if (enemy.x == new_x && enemy.y == new_y && !enemy.IsDead) { return false; }
             // 갈 수 없는 곳 판정
             return (map.flagData[new_x, new_y] == 1 ? false : true);
@@ -109,7 +112,7 @@ namespace NRP_Server
         {
             if (!Users.ContainsKey(u.no))
                 return false;
-            foreach (Enemy obj in Enemies)
+            foreach (Enemy obj in Enemies.Values)
                 u.userData.clientData.SendPacket(Packet.EnemyCreate(obj));
 
             return true;
@@ -165,34 +168,6 @@ namespace NRP_Server
             AllSendPacket(Packet.DropItemDelete(index));
         }
 
-        // 몬스터를 생성합니다.
-        public int addEnemy(int enemy_no, int x, int y)
-        {
-            Enemy obj;
-            DataTable ds;
-            int index;
-            ds = Mysql.Query($"SELECT * FROM enemy WHERE no = '{enemy_no}'");
-            obj = new Enemy(this);
-            Enemies.Add(obj);
-            index = Enemies.IndexOf(obj);
-            obj.loadData(ds.Rows[0], index, mapid, x, y);
-            // 패킷
-            AllSendPacket(Packet.EnemyCreate(obj));
-            return index;
-        }
-        // 몬스터를 제거합니다.
-        public void deleteEnemy(int index)
-        {
-            if (index >= 0 && index < Enemies.Count)
-            {
-                Enemy obj = Enemies[index] as Enemy;
-                // del Packet
-
-                // del
-                Enemies.Remove(obj);
-            }
-        }
-
         // 필드에 해당 유저를 입장시킵니다.
         public bool join(UserCharacter u, int _x, int _y)
         {
@@ -218,7 +193,7 @@ namespace NRP_Server
                 if (_char.no == no) { continue; }
                 _char.userData.clientData.SendPacket(Packet.DeleteCharacter(Users[no]));
             }
-            foreach (Enemy enemy in Enemies)
+            foreach (Enemy enemy in Enemies.Values)
                 if (enemy.target == Users[no])
                     enemy.target = null;
             Users[no].fieldData = null;
@@ -245,7 +220,7 @@ namespace NRP_Server
         public void update()
         {
             if (Users.Count == 0) { return; }
-            foreach (Enemy obj in Enemies)
+            foreach (Enemy obj in Enemies.Values)
                 obj.update();
         }
     }
