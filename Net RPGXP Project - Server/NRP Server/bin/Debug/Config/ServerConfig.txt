@@ -1,5 +1,6 @@
 ﻿[SERVER]
 TITLE			=Net RMXP Prject Server - by. Allfea (allfea_@naver.com)
+ADMIN			=admin
 
 [SOCKET]
 PORT			=50002

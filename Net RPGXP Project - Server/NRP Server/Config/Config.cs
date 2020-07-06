@@ -1,4 +1,8 @@
-﻿using System;
+﻿///////////////////
+/// N R P 1.6.3 ///
+/// 콘피그 모듈 ///
+///////////////////
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +13,9 @@ namespace NRP_Server
     class Config
     {
         // Server
+        //콘피그는 실행파일(exe)풀더의 Config풀더 ServerConfig.txt파일입니다.
         public static string TITLE;
+        public static string ADMIN;
         // Socket
         public static int PORT;
         public static int MAX_NUM;
@@ -34,7 +40,7 @@ namespace NRP_Server
         {
             try
             {
-                string filePath = "./Config/ServerConfig.txt";
+                string filePath = "./Config/ServerConfig.txt"; // 콘피그 파일경로입니다. 기본 권장합니다
                 string fileData = System.IO.File.ReadAllText(filePath);
 
                 string[] readData = fileData.Split('\n');

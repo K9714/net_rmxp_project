@@ -8,6 +8,7 @@ namespace NRP_Server
     class ItemFunction
     {
         // Recovery Value
+
         public static bool RecoveryHpValue(UserCharacter u, Item item, int value)
         {
             u.animation(item.animation_id);
@@ -58,5 +59,12 @@ namespace NRP_Server
             u.fieldData.addEnemy(value, u.x, u.y - 1);
             return true;
         }
+        public static bool StatusUpdate(UserCharacter u, Item item, int value)
+        {
+            u.UpDex(value);
+            u.userData.clientData.SendPacket(Packet.CharacterStatusUpdate(u));
+            return true;
+        }
+
     }
 }

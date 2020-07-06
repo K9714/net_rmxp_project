@@ -16,8 +16,25 @@ namespace NRP_Server
         public static bool Command(ClientInfo clientData, string msg)
         {
             Command admin = new Command("/admin");
-            // /give user_name item_no item_num
             Command give = new Command("/give (.*) ([0-9]+) ([0-9]+)");
+            // 아래의 코드는 기본적으로 비활성화하였습니다. 
+            /*Command unload = new Command("/unload");
+            Command ver = new Command("/ver");
+            // /give user_name item_no item_num
+            if (ver.isMatch(msg))
+                if (Packet.ADMIN.Contains(UserData.Users[clientData].character.name))
+                {
+                    clientData.SendPacket(Packet.UserChat("\\C[50,250,50][버전] Ver " + Config.VERSION));
+                    return true;
+                }
+
+            if (unload.isMatch(msg))
+                if (Packet.ADMIN.Contains(UserData.Users[clientData].character.name))
+                {
+                    UserData.Users[clientData].admin = false;
+                    clientData.SendPacket(Packet.UserChat("\\C[50,250,50][관리] 관리자 모드 해제"));
+                    return true;
+                }*/
 
             if (admin.isMatch(msg))
                 if (Packet.ADMIN.Contains(UserData.Users[clientData].character.name))
