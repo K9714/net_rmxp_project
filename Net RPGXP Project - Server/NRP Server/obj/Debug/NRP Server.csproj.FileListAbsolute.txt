@@ -20,3 +20,4 @@ C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\N
 C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csproj.CopyComplete
 C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.exe
 C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.pdb
+
