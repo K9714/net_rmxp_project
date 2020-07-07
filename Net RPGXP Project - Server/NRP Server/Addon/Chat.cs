@@ -17,7 +17,6 @@ namespace NRP_Server
         {
             Command admin = new Command("/admin");
             Command give = new Command("/give (.*) ([0-9]+) ([0-9]+)");
-            // 아래의 코드는 기본적으로 비활성화하였습니다. 
             /*Command unload = new Command("/unload");
             Command ver = new Command("/ver");
             // /give user_name item_no item_num

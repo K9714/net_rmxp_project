@@ -45,6 +45,7 @@ namespace NRP_Server
 
                 string[] readData = fileData.Split('\n');
                 Command title = new Command("[Tt][Ii][Tt][Ll][Ee](.*)=(.*)");
+                Command admin = new Command("[Aa][Dd][Mm][Ii][Nn](.*)=(.*)");
                 Command port = new Command("(.*)[Pp][Oo][Rr][Tt](.*)=(.*)");
                 Command max_num = new Command("[Mm][Aa][Xx]_[Nn][Uu][Mm](.*)=(.*)");
 
@@ -64,6 +65,8 @@ namespace NRP_Server
 
                 foreach (string msg in readData)
                 {
+                    if (admin.isMatch(msg))
+                        ADMIN = admin.MatchData(msg)[2].Replace("\r", "");
                     if (title.isMatch(msg))
                         TITLE = title.MatchData(msg)[2].Replace("\r", "");
                     if (port.isMatch(msg) && port.MatchData(msg)[1].Equals(""))
