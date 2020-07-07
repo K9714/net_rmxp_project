@@ -20,12 +20,4 @@ C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\N
 C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csproj.CopyComplete
 C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.exe
 C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.pdb
-E:\net_rmxp_project\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csprojAssemblyReference.cache
-E:\net_rmxp_project\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csproj.CoreCompileInputs.cache
-E:\net_rmxp_project\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.exe
-E:\net_rmxp_project\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.pdb
-E:\net_rmxp_project\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.exe.config
-E:\net_rmxp_project\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.exe
-E:\net_rmxp_project\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.pdb
-E:\net_rmxp_project\Net RPGXP Project - Server\NRP Server\bin\Debug\MySql.Data.xml
-E:\net_rmxp_project\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csproj.CopyComplete
+
