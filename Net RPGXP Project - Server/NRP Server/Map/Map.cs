@@ -17,7 +17,7 @@ namespace NRP_Server
         }
         #endregion
         // Static Variables
-        public const int MAP_SIZE = 4; //맵이 5개라면 4를5로하세요
+        public const int MAP_SIZE = 4; //맵의 개수만큼 설정해주세요
         public static Dictionary<int, Map> Maps = new Dictionary<int, Map>();
 
         public static void loadData()
