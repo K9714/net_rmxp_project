@@ -139,10 +139,13 @@ namespace NRP_Server
                 if (Command.rand.Next(1000) + 1 <= item.rate)
                     fieldData.addDropItem(x, y, item);
             if (attacker is UserCharacter)
-                (attacker as UserCharacter).gainExp(exp); 
+            {
+                (attacker as UserCharacter).gainExp(exp);
+                EnemyEvent.Dead(this, attacker as UserCharacter);
+            }
         }
 
-        public void animation(int id)
+            public void animation(int id)
         {
             fieldData.AllSendPacket(Packet.EnemyAnimation(this, id));
         }

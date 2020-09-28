@@ -31,6 +31,13 @@ namespace NRP_Server
             WriteLine(msg);
         }
 
+        static public void Close(string msg)
+        {
+            Write("[" + DateTime.Now.ToString("HH:mm:ss") + "]");
+            ColorWrite("[종료] ", ConsoleColor.DarkYellow);
+            WriteLine(msg);
+        }
+
         static public void Write(string msg)
         {
             Console.Write(msg);
@@ -41,7 +48,7 @@ namespace NRP_Server
             Console.WriteLine(msg);
         }
 
-        static public void ColorWrite(string msg, ConsoleColor color, bool reset=true)
+        static public void ColorWrite(string msg, ConsoleColor color, bool reset = true)
         {
             Console.ForegroundColor = color;
             Console.Write(msg);

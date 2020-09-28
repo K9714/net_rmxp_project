@@ -140,6 +140,9 @@ namespace NRP_Server
             userData.clientData.SendPacket(Packet.EventTrigger());
         }
 
+        // 임시
+        public Quest questData;
+
         // Object
         public UserCharacter(UserData u, int _index)
         {

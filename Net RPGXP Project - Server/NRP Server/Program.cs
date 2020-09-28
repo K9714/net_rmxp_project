@@ -11,10 +11,11 @@ namespace NRP_Server
 {
     class Program
     {
+        public static Handler SocketObject;
         static void Main(string[] args)
         {
-            Config.LoadConfigData();
             // Title
+            Config.LoadConfigData();
             Console.Title = Config.TITLE;
 
             // Welcome Message
@@ -24,8 +25,8 @@ namespace NRP_Server
             Msg.Info(Config.SERVER_MESSAGE + " (포트 :" + Config.PORT + ")");
 
             // Socket Set
-            Handler SocketObject = new Handler();
-            SocketObject.start();
+            SocketObject = new Handler();
+            SocketObject.Start();
         }
     }
 }

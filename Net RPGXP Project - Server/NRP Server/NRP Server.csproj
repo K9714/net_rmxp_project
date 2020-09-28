@@ -9,10 +9,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NRP_Server</RootNamespace>
     <AssemblyName>NRP_Server</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>게시\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -27,7 +28,6 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -38,6 +38,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
@@ -77,6 +79,9 @@
     <Compile Include="Addon\Msg.cs" />
     <Compile Include="Addon\Mysql.cs" />
     <Compile Include="Addon\StringConverter.cs" />
+    <Compile Include="MainHandler\Event\ConsoleEvent.cs" />
+    <Compile Include="MainHandler\Event\ServerThread.cs" />
+    <Compile Include="MainHandler\Loader\BootLoader.cs" />
     <Compile Include="Map\Field.cs" />
     <Compile Include="Map\Map.cs" />
     <Compile Include="Map\Portal.cs" />
@@ -88,18 +93,21 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Socket\Client.cs" />
+    <Compile Include="MainHandler\Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Config\Config.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Socket\Handler.cs" />
-    <Compile Include="Socket\Packet.cs" />
+    <Compile Include="MainHandler\Handler.cs" />
+    <Compile Include="MainHandler\Packet.cs" />
     <Compile Include="Storage\Character.cs" />
+    <Compile Include="Storage\EnemyEvent.cs" />
+    <Compile Include="Storage\Quest.cs" />
     <Compile Include="Storage\Damage.cs" />
     <Compile Include="Storage\Exp.cs" />
     <Compile Include="Storage\Item.cs" />
     <Compile Include="Storage\ItemFunction.cs" />
     <Compile Include="Storage\NPCFunction.cs" />
+    <Compile Include="Storage\QuestData.cs" />
     <Compile Include="Storage\Skill.cs" />
     <Compile Include="Storage\SkillFunction.cs" />
     <Compile Include="Storage\Store.cs" />

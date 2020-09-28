@@ -34,10 +34,17 @@ namespace NRP_Server
             foreach (DataRow ps in pos.Rows)
             {
                 ds = Mysql.Query($"SELECT * FROM enemy WHERE no = '{ps["enemy_no"]}'");
-                obj = new Enemy(this);
-                Enemies.Add(obj);
-                obj.loadData(ds.Rows[0], Enemies.IndexOf(obj), mapid, Convert.ToInt32(ps["map_x"]), Convert.ToInt32(ps["map_y"]));
-                count++;
+                if (ds.Rows.Count > 0)
+                {
+                    obj = new Enemy(this);
+                    Enemies.Add(obj);
+                    obj.loadData(ds.Rows[0], Enemies.IndexOf(obj), mapid, Convert.ToInt32(ps["map_x"]), Convert.ToInt32(ps["map_y"]));
+                    count++;
+                }
+                else
+                {
+                    Msg.Error($"[맵] 존재하지 않는 몬스터 eneny_no = '{ps["enemy_no"]}' 의 위치 정보 확인됨.");
+                }
             }
             Msg.Info($"[맵] {mapid}번 {count} 개의 몬스터 로드 완료");
         }

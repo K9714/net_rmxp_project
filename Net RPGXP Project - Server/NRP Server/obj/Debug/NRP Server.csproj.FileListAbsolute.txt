@@ -20,3 +20,12 @@ C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\N
 C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csproj.CopyComplete
 C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.exe
 C:\Users\optik\Desktop\NRP 1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.pdb
+C:\Users\KSKIM2\Desktop\경수\개인\NRP_1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.exe.config
+C:\Users\KSKIM2\Desktop\경수\개인\NRP_1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.exe
+C:\Users\KSKIM2\Desktop\경수\개인\NRP_1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\NRP_Server.pdb
+C:\Users\KSKIM2\Desktop\경수\개인\NRP_1.0\Net RPGXP Project - Server\NRP Server\bin\Debug\MySql.Data.xml
+C:\Users\KSKIM2\Desktop\경수\개인\NRP_1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csprojAssemblyReference.cache
+C:\Users\KSKIM2\Desktop\경수\개인\NRP_1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csproj.CoreCompileInputs.cache
+C:\Users\KSKIM2\Desktop\경수\개인\NRP_1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP Server.csproj.CopyComplete
+C:\Users\KSKIM2\Desktop\경수\개인\NRP_1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.exe
+C:\Users\KSKIM2\Desktop\경수\개인\NRP_1.0\Net RPGXP Project - Server\NRP Server\obj\Debug\NRP_Server.pdb

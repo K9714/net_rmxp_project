@@ -45,6 +45,8 @@ namespace NRP_Server
                 Command button = new Command("([0-9]+)\\[(.*)\\]");
                 Command store = new Command("STORE=([0-9]+),([0-9]+),([0-9]+)");
                 Command function = new Command("FUNCTION=([0-9]+),([0-9]+),(.*)");
+                Command quest = new Command("QUEST=([0-9]+),([0-9]+),([0-9]+)");
+                Command questif = new Command("QUESTIF=([0-9]+),(.*),(.*),(.*)");
 
                 int[] buttons;
                 int i;
@@ -111,6 +113,16 @@ namespace NRP_Server
 
                         obj = new FunctionCommand(this, ToInt(matchData[1]), ToInt(matchData[2]), matchData[3], cmd);
                         Functions.Add(obj.index, obj);
+                    }
+                    // 퀘스트 커맨드
+                    if (quest.isMatch(cmd))
+                    {
+
+                    }
+                    // 퀘스트 조건분기 커맨드
+                    if (questif.isMatch(cmd))
+                    {
+
                     }
                 }
             }
@@ -367,5 +379,17 @@ namespace NRP_Server
             func = _func;
             string_command = _strcmd;
         }
+    }
+
+    // Quest
+    class QuestCommand
+    {
+
+    }
+
+    // QuestIF
+    class QuestIfCommand
+    {
+
     }
 }
